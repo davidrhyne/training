@@ -1,13 +1,13 @@
 
-## take content of data.txt and copy and "insert" two more times
-#with open("files/data.txt","a+") as myfile:
-#    myfile.seek(0)
-#    contents = myfile.read() + "\n"
-#    myfile.seek(0)
-#    myfile.write(contents)
-#    myfile.write(contents)
-#
-#print(contents)
+# take content of data.txt and copy and "insert" two more times
+with open("files/data.txt","a+") as myfile:
+   myfile.seek(0)
+   contents = myfile.read() + "\n"
+   myfile.seek(0)
+   myfile.write(contents)
+   myfile.write(contents)
+
+print(contents)
 
 ##read the bear1.txt and append contents to end of bear2.txt
 #with open("bear1.txt","r") as myfile:
