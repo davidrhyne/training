@@ -17,7 +17,7 @@ with open("bear2.txt", "a") as myfile:
     myfile.write(file_contents)
 
 
-read the bear.txt and write first 90 characters to first.txt
+# read the bear.txt and write first 90 characters to first.txt
 
 with open("files/bear.txt", "r") as myfile:
     file_contents = myfile.read()
