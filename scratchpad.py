@@ -9,32 +9,32 @@ with open("files/data.txt", "a+") as myfile:
 
 print(contents)
 
-# read the bear1.txt and append contents to end of bear2.txt
-with open("bear1.txt", "r") as myfile:
-    file_contents = myfile.read()
+# # read the bear1.txt and append contents to end of bear2.txt
+# with open("bear1.txt", "r") as myfile:
+#     file_contents = myfile.read()
 
-with open("bear2.txt", "a") as myfile:
-    myfile.write(file_contents)
-
-
-read the bear.txt and write first 90 characters to first.txt
-
-with open("files/bear.txt","r") as myfile:
-   file_contents = myfile.read()
-
-first_ninety = file_contents[:90]
-
-with open("files/first.txt","w") as myfile:
+# with open("bear2.txt", "a") as myfile:
+#     myfile.write(file_contents)
 
 
-function that takes single character and filepath and returns the number of occurences that character has in the file
-def count_letter_in_file(character,path):
-   user_file = open(path)
-   file_contents = user_file.read()
-   user_file.close()
-   return file_contents.count(character)
+# read the bear.txt and write first 90 characters to first.txt
 
-print(count_letter_in_file('o',"fruits.txt"))
+# with open("files/bear.txt","r") as myfile:
+#    file_contents = myfile.read()
+
+# first_ninety = file_contents[:90]
+
+# with open("files/first.txt","w") as myfile:
+
+
+# function that takes single character and filepath and returns the number of occurences that character has in the file
+# def count_letter_in_file(character,path):
+#    user_file = open(path)
+#    file_contents = user_file.read()
+#    user_file.close()
+#    return file_contents.count(character)
+
+# print(count_letter_in_file('o',"fruits.txt"))
 
 
 # open file and print first 90 characters
