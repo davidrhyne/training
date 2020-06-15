@@ -27,14 +27,14 @@ first_ninety = file_contents[:90]
 with open("files/first.txt","w") as myfile:
 
 
-# function that takes single character and filepath and returns the number of occurences that character has in the file
-# def count_letter_in_file(character,path):
-#    user_file = open(path)
-#    file_contents = user_file.read()
-#    user_file.close()
-#    return file_contents.count(character)
+function that takes single character and filepath and returns the number of occurences that character has in the file
+def count_letter_in_file(character,path):
+   user_file = open(path)
+   file_contents = user_file.read()
+   user_file.close()
+   return file_contents.count(character)
 
-# print(count_letter_in_file('o',"fruits.txt"))
+print(count_letter_in_file('o',"fruits.txt"))
 
 
 # open file and print first 90 characters
